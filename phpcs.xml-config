@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ruleset name="TopSearch Coding Standards">
+    <description>TopSearch coding standards for PHP CodeSniffer</description>
+
+    <!-- File extensions to check -->
+    <file_extensions>php</file_extensions>
+
+    <!-- Directories to check -->
+    <arg name="basepath" value="."/>
+
+    <!-- Exclude directories and files -->
+    <exclude-pattern>vendor/*</exclude-pattern>
+
+    <!-- Choose a coding standard -->
+    <rule ref="PSR2"/>
+
+    <!-- Customize the standard -->
+    <rule ref="PSR2.Classes.PropertyDeclaration">
+        <properties>
+            <property name="visibility_required" value="true"/>
+        </properties>
+    </rule>
+
+    <rule ref="PSR2.ControlStructures.SwitchDeclaration">
+        <properties>
+            <property name="indent" value="4"/>
+        </properties>
+    </rule>
+
+    <rule ref="PSR2.ControlStructures.ElseIfDeclaration"/>
+    <rule ref="PSR2.Files.EndFileNewline"/>
+    <rule ref="PSR2.Methods.FunctionCallSignature"/>
+    <rule ref="PSR2.Methods.FunctionClosingBrace"/>
+
+    <!-- Show errors and warnings -->
+    <arg value="-s"/>
+    <arg value="-p"/>
+</ruleset>
