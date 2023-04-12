@@ -1,0 +1,3 @@
+# webdesign
+TopSearch is a premier web design company based in Greece that specializes in search engine optimization (SEO). Our team of experienced web designers and SEO specialists are dedicated to helping businesses of all sizes establish a strong online presence and increase their visibility in search engine rankings.
+In this repository, you'll find well-structured code, clean design, and responsive layouts that are optimized for various devices. Feel free to browse through the projects and explore the different techniques and design patterns that I have used to create engaging and user-friendly web experiences.
